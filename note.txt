@@ -1,9 +1,15 @@
 - Khởi tạo repository: git init
 - đẩy code lừ local lên remote: 3 bước
-+ chọn: git add -A (git status: kiểm tra show thông tin)
-+ xác nhận: 
-(git commit -m "comment")
-(git log: kiểm tra comment)
-(git remote add origin 'link': liên kết repository remote)
-+ đẩy:  git push -u origin master (lần đầu)
-        lần 2 trở lên ~ git push
+    + chọn: git add -A (git status: kiểm tra show thông tin)
+    + xác nhận: 
+    (git commit -m "comment")
+    (git log: kiểm tra comment)
+    (git remote add origin 'link': liên kết repository remote)
+    + đẩy:  git push -u origin master (lần đầu)
+            lần 2 trở lên ~ git push
+        //
+        đẩy code những lần sau: git add [tenfile], git commit - m "lý do thay đổi", git push
+        //
+- Chia nhánh: git checkout - b [tên nhánh]
+- Chuyển nhánh: git checkout [tên nhánh]
+- gom nhánh: git merge [tên nhánh cần merge]
