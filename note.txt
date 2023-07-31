@@ -7,3 +7,8 @@
 (git remote add origin 'link': liên kết repository remote)
 + đẩy:  git push -u origin master (lần đầu)
         lần 2 trở lên ~ git push
+        //
+        đẩy code những lần sau: git add [tenfile], git commit - m "lý do thay đổi", git push
+        //
+- Chia nhánh: git checkout - b [tên nhánh]
+- Chuyển nhánh: git checkout [tên nhánh]
