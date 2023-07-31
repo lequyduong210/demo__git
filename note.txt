@@ -2,4 +2,8 @@
 - đẩy code lừ local lên remote: 3 bước
 + chọn: git add -A (git status: kiểm tra show thông tin)
 + xác nhận: 
-+ đẩy: 
+(git commit -m "comment")
+(git log: kiểm tra comment)
+(git remote add origin 'link': liên kết repository remote)
++ đẩy:  git push -u origin master (lần đầu)
+        lần 2 trở lên ~ git push
